@@ -13,23 +13,29 @@
 			<p>
 				>20160403.<br/>
 				Today, I implemented the back propagation neural network algorithm in golang. I found that the Sigmoid function is very like ☯. It is a sign of change in chinese book called "Book of Changes". It is kind of interesting for me.<br/>
+				<br/>
 				Also, I have revised the Sigmoid and Dsigmoid functions. I did some tests on Tanh vs Exponent functions.<br/>
+				<br/>
 				Test Data:<br/>
 		        { {0.0, 0.0, 1.0}, {0.0} },<br/>
 		        { {0.0, 1.0, 1.0}, {0.0} },<br/>
 		        { {1.0, 0.0, 1.0}, {1.0} },<br/>
 		        { {1.0, 1.0, 1.0}, {1.0} },<br/>
+		        <br/>
 				Tanh:<br/>
 				[0 0 1] pattern-> [0.04057127174387161]<br/>
 				[0 1 1] pattern-> [0.018118891878521833]<br/>
 				[1 0 1] pattern-> [0.9904257913651989]<br/>
 				[1 1 1] pattern-> [0.9936391493004765]<br/>
-				Exponent<br/>
+				<br/>
+				Exponent:<br/>
 				[0 0 1] pattern-> [0.026501934639183874]<br/>
 				[0 1 1] pattern-> [0.024599618406964455]<br/>
 				[1 0 1] pattern-> [0.9798323857469355]<br/>
 				[1 1 1] pattern-> [0.9786678955120314]<br/>
-				In the result, Exponent is able to group the outputs to two group with mini-different. Tanh is having a greater different of patterns [0 0 1] and [0 1 1]. I don't know what is the reasons behind. Maybe I should find someone to ask.
+				<br/>
+				In the result, Exponent is able to group the outputs to two group with mini-different. Tanh is having a greater different of patterns [0 0 1] and [0 1 1]. I don't know what is the reasons behind. Maybe I should ask someone.<br/>
+				<br/>
 			</p>
 		</div>
 	</body>
