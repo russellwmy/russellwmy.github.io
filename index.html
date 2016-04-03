@@ -1,14 +1,35 @@
 <html>
 	<head>
-
 		<title>Now You See Me</title>
 		<link href='styles.css' rel='stylesheet' type='text/css'>
 	</head>
 
 	<body>
 		<div class="content">
-			<p class="center">Please tell me if you see me.</p>
+			<p class="center" style="color:#FFF"> please tell me if you see me ^_^ </p>
 			<p>
+				I am Russell Wong. This is my first github.io page. I am not going to create a complicated page. I will keep it as simple as it can be.
+			</p>
+			<p>
+				>20160403.<br/>
+				Today, I implemented the back propagation neural network algorithm in golang. I found that the Sigmoid function is very like ☯. It is a sign of change in chinese book called "Book of Changes". It is kind of interesting for me.<br/>
+				Also, I have revised the Sigmoid and Dsigmoid functions. I did some tests on Tanh vs Exponent functions.<br/>
+				Test Data:<br/>
+		        { {0.0, 0.0, 1.0}, {0.0} },<br/>
+		        { {0.0, 1.0, 1.0}, {0.0} },<br/>
+		        { {1.0, 0.0, 1.0}, {1.0} },<br/>
+		        { {1.0, 1.0, 1.0}, {1.0} },<br/>
+				Tanh:<br/>
+				[0 0 1] pattern-> [0.04057127174387161]<br/>
+				[0 1 1] pattern-> [0.018118891878521833]<br/>
+				[1 0 1] pattern-> [0.9904257913651989]<br/>
+				[1 1 1] pattern-> [0.9936391493004765]<br/>
+				Exponent<br/>
+				[0 0 1] pattern-> [0.026501934639183874]<br/>
+				[0 1 1] pattern-> [0.024599618406964455]<br/>
+				[1 0 1] pattern-> [0.9798323857469355]<br/>
+				[1 1 1] pattern-> [0.9786678955120314]<br/>
+				In the result, Exponent is able to group the outputs to two group with mini-different. Tanh is having a greater different of patterns [0 0 1] and [0 1 1]. I don't know what is the reasons behind. Maybe I should find someone to ask.
 			</p>
 		</div>
 	</body>
