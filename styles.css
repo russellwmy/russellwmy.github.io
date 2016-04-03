@@ -4,11 +4,16 @@
 }
 
 body{
-	background: #FEFFF1;
+	background: #FFF;
 	color: #000026;
 	font-size: 14px;
 }
 
 .center {
 	text-align: center;
+}
+.content {
+	backgound: #FEFFF1;
+	width: 900px;
+	display: block;
 }
